@@ -12,7 +12,8 @@ tags:
 > ```dataview
 LIST WITHOUT ID Work 
 FROM #DailyNote 
-WHERE file.cday = date(yesterday)
+WHERE file.cday = this.file.cday - dur(1 day)
+FLATTEN Work
 >```
 ## 🚀 Work Log
 > [!example]+ 💡 Observations & Insights
