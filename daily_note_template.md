@@ -1,26 +1,24 @@
 ---
 tags:
   - DailyNote
+aliases:
 ---
-## 🧭 Today’s Plan
+## ☕ Good morning...
 >[!tip]+ 🎯 Main Focus Points
 >- 
 
 >[!todo]+ 📝 Today's Action Items
 >- [ ] 
-> ### Carryover Tasks
+> ### Yesterday's Bridge
 > ```dataview
 LIST WITHOUT ID Work 
 FROM #DailyNote 
 WHERE file.cday = this.file.cday - dur(1 day)
 FLATTEN Work
 >```
-## 🚀 Work Log
-> [!example]+ 💡 Observations & Insights
->
-
-> [!abstract]+ 📌 Important Notes
-> Some couple of #idea's
+## 👨‍💻 Get to Work...
+> [!example]+ 💡 Ideas & Insights
+>Some couple of #idea's
 >- [idea:: A Great Idea!]
 
 > [!note] 📓 Activity Notes
@@ -41,6 +39,9 @@ FLATTEN Work
 >AND !contains(file.path, "Daily")
 >SORT file.ctime ASC
 > ```
-## ✅ Wrap-Up
+## 🌃 See you Tomorrow!
+> [!cite] 💭 Reflection
+>
+
 > [!danger] 🌅 Tomorrow’s Focus
 > 1. [Work:: I need to work on this tomorrow!]
